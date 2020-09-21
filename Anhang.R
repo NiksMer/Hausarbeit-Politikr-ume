@@ -103,7 +103,7 @@ makeFootnote <- function(footnoteText,size= .7, color= grey(.5)){
 }
 
 # Working Directory setzen
-setwd("C:/Users/niksm/Documents/Uni/Mainz/Master/SS 2020/Hausarbeit Politikräume/R Analyse")
+setwd("") ### Hier Working Directory einsetzen
 
 # Daten einladen
 df_th_raw <- read_dta("GLES Thüringen 2014/ZA5740_v2-0-0.dta")
